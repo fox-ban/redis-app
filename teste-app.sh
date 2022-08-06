@@ -4,7 +4,7 @@ wget -q localhost:8090
 if [ $? -eq 0 ]
 then
     echo 'OK - Serviço no ar!'
-elif [[ $RESULT == *"Number"*]]
+elif [[ $RESULT == *"Number"* ]]
 then 
     echo 'OK - Number of visits!'
     echo $RESULT
